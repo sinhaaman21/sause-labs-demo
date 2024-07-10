@@ -4,9 +4,9 @@ This project is a demonstration of an automated test suite using Cypress with Cu
 
 ## B. Setup
 Clone the repository:
-## `git clone https://github.com/sinhaaman21/sause-labs-demo.git`
-
-## `cd sause-labs-demo`
+ `git clone https://github.com/sinhaaman21/sause-labs-demo.git`
+navigate to root folder
+ `cd sause-labs-demo`
 
 ## C. Install dependencies:
 `npm install`
