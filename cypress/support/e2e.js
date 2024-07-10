@@ -14,9 +14,8 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
 import './../e2e/step_definations/steps'
 import '@shelex/cypress-allure-plugin';
 
 // Alternatively you can use CommonJS syntax:
-// require('./commands')
+//  require('./commands')

@@ -3,9 +3,10 @@
 This project is a demonstration of an automated test suite using Cypress with Cucumber for BDD, integrated with Allure for reporting. The tests cover basic user interactions on the Sauce Labs demo site, including logging in, selecting products, and checking out.
 
 ## B. Setup
-Clone the repository:
+### Clone the repository:
  `git clone https://github.com/sinhaaman21/sause-labs-demo.git`
-navigate to root folder
+
+### Navigate to root folder:
  `cd sause-labs-demo`
 
 ## C. Install dependencies:
@@ -41,15 +42,34 @@ Step definitions are located in
 The feature file defining the test scenarios is located at 
 `cypress/e2e/Feature/sauseLabs.feature`
 
-### 5. Allure results
+### 5. Custom commands
+Cypress custom commands are added in 
+`(cypress/support/commands.js)`
+
+### 6. Video and Screenshots
+1. Execution video is stored in
+`cypress\videos`
+
+2. Failure screenshots would be added in 
+`cypress/screenshots`
+
+### 7. Allure results
 Allure results are located in 
 `cypress/results/allure`
 To view the allure report execute the below command
 `npx allure serve "cypress/results/allure"`
 
-### 6. Dependencies
-Dependencies required are mentioned in `package.json`
+### 8. Dependencies
+Dependencies required are mentioned in `package.json`.
 To install all the dependencies execute `npm install` from the root folder
+
+### 9. Cypress configrations
+Cypress configrations are defined in `cypress.config.js`
+
+### 10. Prerequisites
+1. Node.js (>=v14)
+2. npm 
+3. Git
 
 ## F. Author
 Aman Sinha
