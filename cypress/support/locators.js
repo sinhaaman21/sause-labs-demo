@@ -10,5 +10,9 @@ export const locators = {
     postalCode: '[data-test="postalCode"]',
     continueButton: '[data-test="continue"]',
     finishButton: '[data-test="finish"]',
-    completeHeader: '.complete-header'
+    completeHeader: '.complete-header',
+    productName: '.inventory_item_name',
+    productPrice: '.inventory_item_price',
+    addToCartButton: '.btn_inventory',
+    removeButton: '.btn_secondary',
   };
