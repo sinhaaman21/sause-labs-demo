@@ -1,0 +1,16 @@
+
+  {
+    "baseUrl":"https://www.saucedemo.com/",
+    "firstName": "TestFirstName",
+    "lastName": "TestLastName",
+    "postalCode": "12345",
+    "username":"standard_user",
+    "password":"secret_sauce",
+    "homePageUrl" :"/inventory.html",
+    "cartUrl":"/cart.html",
+    "checkoutStepOneUrl":"/checkout-step-one.html",
+    "checkoutStepTwoUrl":"/checkout-step-two.html",
+    "checkoutCompleteUrl":"/checkout-complete.html",
+    "checkoutMsg" :"Thank you for your order!"
+  }
+
